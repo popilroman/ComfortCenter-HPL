@@ -23,6 +23,8 @@ body {
     height: 100vh;
     position: relative;
     z-index: -999;
+
+    scroll-behavior: smooth;
 }
 
 h1,h2,h3,h4,h5,h6 {
