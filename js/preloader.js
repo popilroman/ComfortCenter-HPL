@@ -13,3 +13,11 @@ document.body.onload = function()
         }
     }, 1500);
 }
+
+document.body.onscroll = function()
+{
+    if (preloader.classList.contains("preloader__done"))
+    {
+        preloader.style.display = "none";
+    }
+}
